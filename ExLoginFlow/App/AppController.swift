@@ -7,10 +7,12 @@
 
 import Foundation
 import UIKit
+import Firebase
 
 final class AppController {
     static let shared = AppController()
     private init() {
+        FirebaseApp.configure() // <- Fierbase 초기화
         registerAuthStateDidChangeEvent()
     }
     
@@ -32,13 +34,13 @@ final class AppController {
     private func registerAuthStateDidChangeEvent() {
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(checkLoginIn),
-                                               name: .authStateDidChange,
+                                               name: .AuthStateDidChange, // <- Firebase Auth 이벤트
                                                object: nil)
     }
         
     @objc private func checkLoginIn() {
-        let isSignIn = UserDefaults.standard.bool(forKey: "isSignIn") == true
-        if isSignIn {
+        if let user = Auth.auth().currentUser { // <- Firebase Auth
+            print("user = \(user)")
             setHome()
         } else {
             routeToLogin()

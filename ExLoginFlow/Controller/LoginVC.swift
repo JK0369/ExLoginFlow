@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class LoginVC: UIViewController {
     
@@ -27,8 +28,7 @@ class LoginVC: UIViewController {
     }
 
     @objc func didTapLoginButton() {
-        UserDefaults.standard.set(true, forKey: "isSignIn")
-        NotificationCenter.default.post(name: .authStateDidChange, object: nil)
+        Auth.auth().signInAnonymously()
     }
 
 }
