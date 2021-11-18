@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4A0CC1692746178E0018060C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC1682746178E0018060C /* AppDelegate.swift */; };
-		4A0CC16B2746178E0018060C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC16A2746178E0018060C /* SceneDelegate.swift */; };
-		4A0CC16D2746178E0018060C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC16C2746178E0018060C /* ViewController.swift */; };
-		4A0CC1702746178E0018060C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0CC16E2746178E0018060C /* Main.storyboard */; };
+		4A0CC16D2746178E0018060C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC16C2746178E0018060C /* LoginVC.swift */; };
 		4A0CC1722746178F0018060C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0CC1712746178F0018060C /* Assets.xcassets */; };
 		4A0CC1752746178F0018060C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0CC1732746178F0018060C /* LaunchScreen.storyboard */; };
-		4A0CC1802746178F0018060C /* ExLoginFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC17F2746178F0018060C /* ExLoginFlowTests.swift */; };
-		4A0CC18A2746178F0018060C /* ExLoginFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC1892746178F0018060C /* ExLoginFlowUITests.swift */; };
-		4A0CC18C2746178F0018060C /* ExLoginFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC18B2746178F0018060C /* ExLoginFlowUITestsLaunchTests.swift */; };
+		4A0CC19E274618000018060C /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC19D274618000018060C /* AppController.swift */; };
+		4A0CC1A1274618330018060C /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC1A0274618330018060C /* Notification.swift */; };
+		4A0CC1A3274620630018060C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC1A2274620630018060C /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,17 +36,15 @@
 /* Begin PBXFileReference section */
 		4A0CC1652746178E0018060C /* ExLoginFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExLoginFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A0CC1682746178E0018060C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A0CC16A2746178E0018060C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4A0CC16C2746178E0018060C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A0CC16F2746178E0018060C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A0CC16C2746178E0018060C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		4A0CC1712746178F0018060C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A0CC1742746178F0018060C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A0CC1762746178F0018060C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A0CC17B2746178F0018060C /* ExLoginFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExLoginFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A0CC17F2746178F0018060C /* ExLoginFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExLoginFlowTests.swift; sourceTree = "<group>"; };
 		4A0CC1852746178F0018060C /* ExLoginFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExLoginFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A0CC1892746178F0018060C /* ExLoginFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExLoginFlowUITests.swift; sourceTree = "<group>"; };
-		4A0CC18B2746178F0018060C /* ExLoginFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExLoginFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A0CC19D274618000018060C /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		4A0CC1A0274618330018060C /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		4A0CC1A2274620630018060C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				4A0CC1672746178E0018060C /* ExLoginFlow */,
-				4A0CC17E2746178F0018060C /* ExLoginFlowTests */,
-				4A0CC1882746178F0018060C /* ExLoginFlowUITests */,
 				4A0CC1662746178E0018060C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,32 +93,64 @@
 		4A0CC1672746178E0018060C /* ExLoginFlow */ = {
 			isa = PBXGroup;
 			children = (
-				4A0CC1682746178E0018060C /* AppDelegate.swift */,
-				4A0CC16A2746178E0018060C /* SceneDelegate.swift */,
-				4A0CC16C2746178E0018060C /* ViewController.swift */,
-				4A0CC16E2746178E0018060C /* Main.storyboard */,
-				4A0CC1712746178F0018060C /* Assets.xcassets */,
-				4A0CC1732746178F0018060C /* LaunchScreen.storyboard */,
-				4A0CC1762746178F0018060C /* Info.plist */,
+				4A0CC19F2746182C0018060C /* Extension */,
+				4A0CC19C274617B70018060C /* App */,
+				4A0CC19B274617A90018060C /* Supporting File */,
+				4A0CC19A274617A50018060C /* Model */,
+				4A0CC199274617A10018060C /* View */,
+				4A0CC1982746179C0018060C /* Controller */,
 			);
 			path = ExLoginFlow;
 			sourceTree = "<group>";
 		};
-		4A0CC17E2746178F0018060C /* ExLoginFlowTests */ = {
+		4A0CC1982746179C0018060C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4A0CC17F2746178F0018060C /* ExLoginFlowTests.swift */,
+				4A0CC16C2746178E0018060C /* LoginVC.swift */,
+				4A0CC1A2274620630018060C /* HomeVC.swift */,
 			);
-			path = ExLoginFlowTests;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		4A0CC1882746178F0018060C /* ExLoginFlowUITests */ = {
+		4A0CC199274617A10018060C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4A0CC1892746178F0018060C /* ExLoginFlowUITests.swift */,
-				4A0CC18B2746178F0018060C /* ExLoginFlowUITestsLaunchTests.swift */,
 			);
-			path = ExLoginFlowUITests;
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A0CC19A274617A50018060C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A0CC19B274617A90018060C /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				4A0CC1712746178F0018060C /* Assets.xcassets */,
+				4A0CC1732746178F0018060C /* LaunchScreen.storyboard */,
+				4A0CC1762746178F0018060C /* Info.plist */,
+			);
+			path = "Supporting File";
+			sourceTree = "<group>";
+		};
+		4A0CC19C274617B70018060C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4A0CC1682746178E0018060C /* AppDelegate.swift */,
+				4A0CC19D274618000018060C /* AppController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4A0CC19F2746182C0018060C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4A0CC1A0274618330018060C /* Notification.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +169,8 @@
 			dependencies = (
 			);
 			name = ExLoginFlow;
+			packageProductDependencies = (
+			);
 			productName = ExLoginFlow;
 			productReference = 4A0CC1652746178E0018060C /* ExLoginFlow.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +243,8 @@
 				Base,
 			);
 			mainGroup = 4A0CC15C2746178E0018060C;
+			packageReferences = (
+			);
 			productRefGroup = 4A0CC1662746178E0018060C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +263,6 @@
 			files = (
 				4A0CC1752746178F0018060C /* LaunchScreen.storyboard in Resources */,
 				4A0CC1722746178F0018060C /* Assets.xcassets in Resources */,
-				4A0CC1702746178E0018060C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A0CC16D2746178E0018060C /* ViewController.swift in Sources */,
+				4A0CC16D2746178E0018060C /* LoginVC.swift in Sources */,
+				4A0CC1A3274620630018060C /* HomeVC.swift in Sources */,
 				4A0CC1692746178E0018060C /* AppDelegate.swift in Sources */,
-				4A0CC16B2746178E0018060C /* SceneDelegate.swift in Sources */,
+				4A0CC19E274618000018060C /* AppController.swift in Sources */,
+				4A0CC1A1274618330018060C /* Notification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A0CC1802746178F0018060C /* ExLoginFlowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +306,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A0CC18A2746178F0018060C /* ExLoginFlowUITests.swift in Sources */,
-				4A0CC18C2746178F0018060C /* ExLoginFlowUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +325,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4A0CC16E2746178E0018060C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A0CC16F2746178E0018060C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4A0CC1732746178F0018060C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,10 +461,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SS7U83UJNK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ExLoginFlow/Info.plist;
+				INFOPLIST_FILE = "ExLoginFlow/Supporting File/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,10 +488,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SS7U83UJNK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ExLoginFlow/Info.plist;
+				INFOPLIST_FILE = "ExLoginFlow/Supporting File/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
