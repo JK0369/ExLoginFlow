@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0CC1692746178E0018060C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC1682746178E0018060C /* AppDelegate.swift */; };
+		4A0CC16B2746178E0018060C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC16A2746178E0018060C /* SceneDelegate.swift */; };
+		4A0CC16D2746178E0018060C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC16C2746178E0018060C /* ViewController.swift */; };
+		4A0CC1702746178E0018060C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0CC16E2746178E0018060C /* Main.storyboard */; };
+		4A0CC1722746178F0018060C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0CC1712746178F0018060C /* Assets.xcassets */; };
+		4A0CC1752746178F0018060C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0CC1732746178F0018060C /* LaunchScreen.storyboard */; };
+		4A0CC1802746178F0018060C /* ExLoginFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC17F2746178F0018060C /* ExLoginFlowTests.swift */; };
+		4A0CC18A2746178F0018060C /* ExLoginFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC1892746178F0018060C /* ExLoginFlowUITests.swift */; };
+		4A0CC18C2746178F0018060C /* ExLoginFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC18B2746178F0018060C /* ExLoginFlowUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A0CC17C2746178F0018060C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0CC15D2746178E0018060C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0CC1642746178E0018060C;
+			remoteInfo = ExLoginFlow;
+		};
+		4A0CC1862746178F0018060C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0CC15D2746178E0018060C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0CC1642746178E0018060C;
+			remoteInfo = ExLoginFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A0CC1652746178E0018060C /* ExLoginFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExLoginFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0CC1682746178E0018060C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A0CC16A2746178E0018060C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4A0CC16C2746178E0018060C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A0CC16F2746178E0018060C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A0CC1712746178F0018060C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A0CC1742746178F0018060C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A0CC1762746178F0018060C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0CC17B2746178F0018060C /* ExLoginFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExLoginFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0CC17F2746178F0018060C /* ExLoginFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExLoginFlowTests.swift; sourceTree = "<group>"; };
+		4A0CC1852746178F0018060C /* ExLoginFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExLoginFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0CC1892746178F0018060C /* ExLoginFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExLoginFlowUITests.swift; sourceTree = "<group>"; };
+		4A0CC18B2746178F0018060C /* ExLoginFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExLoginFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0CC1622746178E0018060C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0CC1782746178F0018060C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0CC1822746178F0018060C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0CC15C2746178E0018060C = {
+			isa = PBXGroup;
+			children = (
+				4A0CC1672746178E0018060C /* ExLoginFlow */,
+				4A0CC17E2746178F0018060C /* ExLoginFlowTests */,
+				4A0CC1882746178F0018060C /* ExLoginFlowUITests */,
+				4A0CC1662746178E0018060C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0CC1662746178E0018060C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0CC1652746178E0018060C /* ExLoginFlow.app */,
+				4A0CC17B2746178F0018060C /* ExLoginFlowTests.xctest */,
+				4A0CC1852746178F0018060C /* ExLoginFlowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0CC1672746178E0018060C /* ExLoginFlow */ = {
+			isa = PBXGroup;
+			children = (
+				4A0CC1682746178E0018060C /* AppDelegate.swift */,
+				4A0CC16A2746178E0018060C /* SceneDelegate.swift */,
+				4A0CC16C2746178E0018060C /* ViewController.swift */,
+				4A0CC16E2746178E0018060C /* Main.storyboard */,
+				4A0CC1712746178F0018060C /* Assets.xcassets */,
+				4A0CC1732746178F0018060C /* LaunchScreen.storyboard */,
+				4A0CC1762746178F0018060C /* Info.plist */,
+			);
+			path = ExLoginFlow;
+			sourceTree = "<group>";
+		};
+		4A0CC17E2746178F0018060C /* ExLoginFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0CC17F2746178F0018060C /* ExLoginFlowTests.swift */,
+			);
+			path = ExLoginFlowTests;
+			sourceTree = "<group>";
+		};
+		4A0CC1882746178F0018060C /* ExLoginFlowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0CC1892746178F0018060C /* ExLoginFlowUITests.swift */,
+				4A0CC18B2746178F0018060C /* ExLoginFlowUITestsLaunchTests.swift */,
+			);
+			path = ExLoginFlowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0CC1642746178E0018060C /* ExLoginFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0CC18F2746178F0018060C /* Build configuration list for PBXNativeTarget "ExLoginFlow" */;
+			buildPhases = (
+				4A0CC1612746178E0018060C /* Sources */,
+				4A0CC1622746178E0018060C /* Frameworks */,
+				4A0CC1632746178E0018060C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExLoginFlow;
+			productName = ExLoginFlow;
+			productReference = 4A0CC1652746178E0018060C /* ExLoginFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A0CC17A2746178F0018060C /* ExLoginFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0CC1922746178F0018060C /* Build configuration list for PBXNativeTarget "ExLoginFlowTests" */;
+			buildPhases = (
+				4A0CC1772746178F0018060C /* Sources */,
+				4A0CC1782746178F0018060C /* Frameworks */,
+				4A0CC1792746178F0018060C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0CC17D2746178F0018060C /* PBXTargetDependency */,
+			);
+			name = ExLoginFlowTests;
+			productName = ExLoginFlowTests;
+			productReference = 4A0CC17B2746178F0018060C /* ExLoginFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A0CC1842746178F0018060C /* ExLoginFlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0CC1952746178F0018060C /* Build configuration list for PBXNativeTarget "ExLoginFlowUITests" */;
+			buildPhases = (
+				4A0CC1812746178F0018060C /* Sources */,
+				4A0CC1822746178F0018060C /* Frameworks */,
+				4A0CC1832746178F0018060C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0CC1872746178F0018060C /* PBXTargetDependency */,
+			);
+			name = ExLoginFlowUITests;
+			productName = ExLoginFlowUITests;
+			productReference = 4A0CC1852746178F0018060C /* ExLoginFlowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0CC15D2746178E0018060C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4A0CC1642746178E0018060C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					4A0CC17A2746178F0018060C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4A0CC1642746178E0018060C;
+					};
+					4A0CC1842746178F0018060C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4A0CC1642746178E0018060C;
+					};
+				};
+			};
+			buildConfigurationList = 4A0CC1602746178E0018060C /* Build configuration list for PBXProject "ExLoginFlow" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A0CC15C2746178E0018060C;
+			productRefGroup = 4A0CC1662746178E0018060C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0CC1642746178E0018060C /* ExLoginFlow */,
+				4A0CC17A2746178F0018060C /* ExLoginFlowTests */,
+				4A0CC1842746178F0018060C /* ExLoginFlowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0CC1632746178E0018060C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0CC1752746178F0018060C /* LaunchScreen.storyboard in Resources */,
+				4A0CC1722746178F0018060C /* Assets.xcassets in Resources */,
+				4A0CC1702746178E0018060C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0CC1792746178F0018060C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0CC1832746178F0018060C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0CC1612746178E0018060C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0CC16D2746178E0018060C /* ViewController.swift in Sources */,
+				4A0CC1692746178E0018060C /* AppDelegate.swift in Sources */,
+				4A0CC16B2746178E0018060C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0CC1772746178F0018060C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0CC1802746178F0018060C /* ExLoginFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0CC1812746178F0018060C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0CC18A2746178F0018060C /* ExLoginFlowUITests.swift in Sources */,
+				4A0CC18C2746178F0018060C /* ExLoginFlowUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A0CC17D2746178F0018060C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0CC1642746178E0018060C /* ExLoginFlow */;
+			targetProxy = 4A0CC17C2746178F0018060C /* PBXContainerItemProxy */;
+		};
+		4A0CC1872746178F0018060C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0CC1642746178E0018060C /* ExLoginFlow */;
+			targetProxy = 4A0CC1862746178F0018060C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A0CC16E2746178E0018060C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0CC16F2746178E0018060C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A0CC1732746178F0018060C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A0CC1742746178F0018060C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A0CC18D2746178F0018060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A0CC18E2746178F0018060C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A0CC1902746178F0018060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SS7U83UJNK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExLoginFlow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jake.ExLoginFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A0CC1912746178F0018060C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SS7U83UJNK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExLoginFlow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jake.ExLoginFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A0CC1932746178F0018060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SS7U83UJNK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jake.ExLoginFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExLoginFlow.app/ExLoginFlow";
+			};
+			name = Debug;
+		};
+		4A0CC1942746178F0018060C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SS7U83UJNK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jake.ExLoginFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExLoginFlow.app/ExLoginFlow";
+			};
+			name = Release;
+		};
+		4A0CC1962746178F0018060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SS7U83UJNK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jake.ExLoginFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExLoginFlow;
+			};
+			name = Debug;
+		};
+		4A0CC1972746178F0018060C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SS7U83UJNK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jake.ExLoginFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExLoginFlow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0CC1602746178E0018060C /* Build configuration list for PBXProject "ExLoginFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0CC18D2746178F0018060C /* Debug */,
+				4A0CC18E2746178F0018060C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0CC18F2746178F0018060C /* Build configuration list for PBXNativeTarget "ExLoginFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0CC1902746178F0018060C /* Debug */,
+				4A0CC1912746178F0018060C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0CC1922746178F0018060C /* Build configuration list for PBXNativeTarget "ExLoginFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0CC1932746178F0018060C /* Debug */,
+				4A0CC1942746178F0018060C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0CC1952746178F0018060C /* Build configuration list for PBXNativeTarget "ExLoginFlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0CC1962746178F0018060C /* Debug */,
+				4A0CC1972746178F0018060C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0CC15D2746178E0018060C /* Project object */;
+}
